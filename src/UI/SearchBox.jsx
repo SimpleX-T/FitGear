@@ -18,7 +18,7 @@ function SearchBox() {
 				type='search'
 				value={query}
 				placeholder='Search for Products'
-				className='outline-none border border-secondary-100 p-2 w-5/6 focus:w-full transition-all duration-150 rounded-md origin-left bg-transparent'
+				className='outline-none border border-secondary-100 p-2 w-5/6 focus:w-full transition-all duration-150 rounded-md origin-left bg-transparent placeholder:text-secondary-100 text-secondary-100'
 				onChange={(e) => handleChange(e)}
 			/>
 		</form>

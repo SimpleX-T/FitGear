@@ -12,7 +12,8 @@ export default {
 				},
 			},
 			backgroundImage: {
-				"hero-bg": "url('heroBg.jpg')",
+				"hero-bg":
+					"radial-gradient(circle at center, rgba(10,10,10,0.2),rgba(10,10,10,0.6)),url('public/heroBg.jpg')",
 			},
 		},
 		plugins: [],

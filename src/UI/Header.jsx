@@ -10,7 +10,7 @@ function Header() {
 	const { numCart } = useProducts();
 
 	return (
-		<header className='w-full  h-[60px] z-10 shadow-md sticky top-0 bg-[#ffffff50] backdrop-blur-sm'>
+		<header className='w-full  h-[60px] z-10 shadow-md sticky top-0 bg-[#ffffff90] backdrop-blur-sm'>
 			<div className='w-5/6 mx-auto flex items-center h-full'>
 				<SearchBox />
 				<Link to='/' className='mr-auto '>
