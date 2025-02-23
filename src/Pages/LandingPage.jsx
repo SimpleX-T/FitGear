@@ -10,7 +10,7 @@ function LandingPage() {
 		<div className='w-full '>
 			<main className='flex items-center justify-center h-screen bg-hero-bg bg-cover bg-repeat-none bg-fixed'>
 				<div className='text-center w-1/2'>
-					<h1 className='text-white font-bold text-6xl leading-tight mb-4'>
+					<h1 className='text-white font-bold text-4xl md:text-6xl leading-tight mb-4'>
 						Your one-stop shop for all things fitness!
 					</h1>
 					<button className='bg-none px-4 py-2 border-2 border-solid text-center transition-colors duration-200 hover:text-secondary-100 text-white font-semibold text-xl hover:backdrop-blur-sm hover:bg-[#ffffff70]'>
